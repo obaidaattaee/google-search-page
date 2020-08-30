@@ -1,0 +1,89 @@
+.navBar {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBar li {
+    display: inline;
+}
+
+.navBar img {
+    width: 20px;
+}
+
+.navBar li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    margin-top:10% ;
+}
+.google-logo img{
+    width: 20%;
+}
+.google-input {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.google-input input {
+    border-radius: 25px;
+    border: 1px solid gray;
+    width: 40%;
+    height: 35px;
+    position: relative;
+    overflow: visible;
+}
+.google-input input image{
+    position: relative;
+    z-index: auto;
+}
+
+.google-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.google-submit button {
+    margin: 10px;
+    border: none;
+    background-color: rgb(238, 236, 236);
+    color: rgb(102, 105, 107);
+    height: 40px;
+    width: 10%;
+    border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    border-color: rgb(116, 111, 111);
+    border: 1px solid;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+}
+ footer ul.navBar {
+     justify-content: space-between;
+ }
+ .language{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ .language p a{
+     color: blue;
+     text-decoration-line: underline;
+ }
